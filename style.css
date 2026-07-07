@@ -143,6 +143,24 @@ footer {
 .more-btn:hover {
   background: #ff2d37;
   transform: scale(1.05);
+
+.search-box {
+  margin-left: 20px;
+}
+
+.search-box input {
+  width: 250px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-box input:focus {
+  box-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+
 }
 /* Responsive Design */
 
@@ -196,6 +214,16 @@ footer {
     max-width: 250px;
   }
 
+  .search-box {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+
+  .search-box input {
+    width: 100%;
+    max-width: 300px;
+  }
+}
 }
 .btn {
   display: inline-block;
