@@ -1,4 +1,4 @@
-* {
+* { 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,11 +16,11 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-}
+
 
 header h1 {
   font-size: 32px;
-}
+
 
 nav a {
   color: white;
@@ -28,11 +28,13 @@ nav a {
   margin-left: 20px;
   font-weight: bold;
 }
+  
 
 nav a:hover {
   color: yellow;
-}
-.hero {
+
+.hero}
+
   height: 90vh;
   text-align: center;
   padding: 60px 20px;
@@ -49,18 +51,20 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
 }
-}
+  
 
 .hero h2 {
   font-size: 40px;
   margin-bottom: 15px;
-}
+
 
 .hero p {
   font-size: 18px;
   margin-bottom: 20px;
 }
+  
 
 button {
   background: #e50914;
@@ -70,11 +74,12 @@ button {
   font-size: 18px;
   border-radius: 8px;
   cursor: pointer;
-}
+
+  
 
 button:hover {
   background: #ff2d37;
-}
+
 
 .anime-list {
   padding: 40px;
@@ -82,12 +87,12 @@ button:hover {
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
-}
-}
+
+
 
 .anime-list h2 {
   margin-bottom: 20px;
-}
+
 
 .card {
   width: 300px;
@@ -96,41 +101,39 @@ button:hover {
   overflow: hidden;
   transition: all 0.3s ease;
   box-shadow: 0 8px 20px rgba(0,0,0,0.5);
-}
-}
+
+
 
 .card:hover {
   transform: translateY(-10px) scale(1.05);
   box-shadow: 0 15px 35px rgba(229,9,20,0.6);
-}
-}
+
+
 .card img {
   width: 100%;
   height: 420px;
   object-fit: cover;
-  background: #111;
-}
-}
-}
+  object-position: center top;
+  display: block;
+  transition: transform 0.4s ease;
+
+
+
 
 .card h3 {
   padding: 15px;
   font-size: 24px;
-}
-}
 
 .card p {
   padding: 0 15px 20px;
   color: #bbb;
-}
-}
 
 footer {
   text-align: center;
   padding: 20px;
   background: #000;
   margin-top: 40px;
-}
+
 .more-btn {
   display: inline-block;
   margin: 15px;
@@ -141,9 +144,8 @@ footer {
   border-radius: 8px;
   font-weight: bold;
   transition: 0.3s;
-}
+
 
 .more-btn:hover {
   background: #ff2d37;
-  transform: scale(1.05);
-}
+  transform: scale(1.05);  
