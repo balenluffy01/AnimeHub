@@ -68,7 +68,7 @@ nav a:hover {
 
 button {
   background: #e50914;
-  color: white;
+  color: yellow;
   border: none;
   padding: 12px 25px;
   font-size: 18px;
@@ -126,7 +126,7 @@ button:hover {
 
 .card p {
   padding: 0 15px 20px;
-  color: #bbb;
+  color: #blue;
 
 footer {
   text-align: center;
