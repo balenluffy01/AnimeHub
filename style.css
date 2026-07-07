@@ -197,3 +197,19 @@ footer {
   }
 
 }
+.btn {
+  display: inline-block;
+  background: #e50914;
+  color: white;
+  text-decoration: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff2d37;
+  transform: scale(1.05);
+}
