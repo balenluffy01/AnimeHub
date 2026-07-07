@@ -143,7 +143,7 @@ footer {
 .more-btn:hover {
   background: #ff2d37;
   transform: scale(1.05);
-
+}
 .search-box {
   margin-left: 20px;
 }
@@ -224,7 +224,7 @@ footer {
     max-width: 300px;
   }
 }
-}
+
 .btn {
   display: inline-block;
   background: #e50914;
