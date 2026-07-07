@@ -35,8 +35,8 @@ nav a:hover {
 
 .hero {
   height: 90vh;
-  text-align: center;
-  padding: 60px 20px;
+  text-align: left;
+  padding: 60px 80px;
 
   background:
     linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
@@ -48,7 +48,7 @@ nav a:hover {
 
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
 }
 
