@@ -129,3 +129,19 @@ footer {
   background: #000;
   margin-top: 40px;
 }
+.more-btn {
+  display: inline-block;
+  margin: 15px;
+  padding: 10px 20px;
+  background: #e50914;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.more-btn:hover {
+  background: #ff2d37;
+  transform: scale(1.05);
+}
