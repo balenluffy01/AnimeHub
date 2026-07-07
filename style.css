@@ -32,11 +32,24 @@ nav a {
 nav a:hover {
   color: yellow;
 }
-
 .hero {
+  height: 90vh;
   text-align: center;
   padding: 60px 20px;
-  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6));
+
+  background:
+    linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+    url("images/eren.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 }
 
 .hero h2 {
