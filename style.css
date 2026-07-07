@@ -78,6 +78,11 @@ button:hover {
 
 .anime-list {
   padding: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
 }
 
 .anime-list h2 {
@@ -85,29 +90,37 @@ button:hover {
 }
 
 .card {
-  background: #222;
   width: 300px;
-  border-radius: 12px;
+  background: #222;
+  border-radius: 15px;
   overflow: hidden;
-  transition: 0.3s;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
 }
 
 .card:hover {
-  transform: scale(1.05);
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 15px 35px rgba(229,9,20,0.6);
 }
-
+}
 .card img {
   width: 100%;
-  display: block;
+  height: 420px;
+  object-fit: cover;
+}
 }
 
 .card h3 {
   padding: 15px;
+  font-size: 24px;
+}
 }
 
 .card p {
-  padding: 0 15px 15px;
-  color: #ccc;
+  padding: 0 15px 20px;
+  color: #bbb;
+}
 }
 
 footer {
