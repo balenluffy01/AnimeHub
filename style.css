@@ -78,10 +78,10 @@ button:hover {
 
 .anime-list {
   padding: 40px;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  flex-wrap: wrap;
+  justify-items: center;
 }
 
 .anime-list h2 {
