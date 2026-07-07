@@ -4,7 +4,7 @@ const button = document.querySelector("button");
 
 if (button) {
   button.addEventListener("click", function () {
-    alert("🎌 بەخێربێیت بۆ AnimeHub!");
+    alert("🎌 AnimeHubبەخێربێیت بۆ !");
   });
 }
 
