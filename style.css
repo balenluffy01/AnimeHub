@@ -90,7 +90,7 @@ button:hover {
 
 .card {
   width: 300px;
-  background: #222;
+  background:  #181818;
   border-radius: 15px;
   overflow: hidden;
   transition: all 0.3s ease;
