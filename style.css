@@ -241,3 +241,7 @@ footer {
   background: #ff2d37;
   transform: scale(1.05);
 }
+body img {
+    width: 300px;
+    height: auto;
+}
