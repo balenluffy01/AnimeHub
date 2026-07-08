@@ -182,6 +182,7 @@ footer {
   }
 
   .hero {
+  background-position: center;
     height: 70vh;
     padding: 40px 15px;
   }
