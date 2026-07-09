@@ -311,3 +311,21 @@ img {
 button {
   box-shadow: 0 0 20px rgba(229,9,20,0.7);
 }
+nav a {
+  position: relative;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background: yellow;
+  transition: 0.3s;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
