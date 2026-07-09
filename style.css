@@ -284,3 +284,25 @@ img {
 .hero p {
   text-shadow: 0 0 10px rgba(255,255,255,0.5);
 }
+.hero {
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 200px;
+  background: linear-gradient(transparent, #0b0b0b);
+}
+
+.card:hover img {
+  transform: scale(1.08);
+}
+
+.btn,
+button {
+  box-shadow: 0 0 20px rgba(229,9,20,0.7);
+}
