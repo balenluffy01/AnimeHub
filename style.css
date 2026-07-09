@@ -329,3 +329,11 @@ nav a::after {
 nav a:hover::after {
   width: 100%;
 }
+.card {
+  cursor: pointer;
+}
+
+.card:hover h3 {
+  color: #e50914;
+  transition: 0.3s;
+}
