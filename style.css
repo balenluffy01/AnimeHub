@@ -260,3 +260,15 @@ img {
     line-height: 1.8;
     margin-bottom: 20px;
 }
+.hero {
+  animation: heroZoom 15s infinite alternate;
+}
+
+@keyframes heroZoom {
+  from {
+    background-size: 100%;
+  }
+  to {
+    background-size: 110%;
+  }
+}
