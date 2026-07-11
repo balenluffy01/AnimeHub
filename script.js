@@ -38,6 +38,7 @@ const images = [
   "images/IMG_0187.jpeg",
   "images/IMG_0196.jpeg",
   "images/IMG_0221.webp"
+  "images/IMG_0242.jpeg"
 ];
 
 let currentImage = 0;
