@@ -396,3 +396,19 @@ nav a:hover::after {
   background:#e50914;
   transform:translateY(-5px);
 }
+.anime-list{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+.anime-list::-webkit-scrollbar{
+    display: none;
+}
+
+.card{
+    min-width: 250px;
+    flex-shrink: 0;
+}
