@@ -31,3 +31,25 @@ searchInput.addEventListener("keyup", function () {
     }
   });
 });
+const hero = document.querySelector(".hero");
+
+const images = [
+  "images/IMG_0186.jpeg",
+  "images/IMG_0187.jpeg",
+  "images/IMG_0188.jpeg",
+  "images/IMG_0196.jpeg",
+  "images/IMG_0221.webp"
+];
+
+let currentImage = 0;
+
+setInterval(() => {
+  currentImage++;
+
+  if (currentImage >= images.length) {
+    currentImage = 0;
+  }
+
+  hero.style.backgroundImage =
+    `linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('${images[currentImage]}')`;
+}, 5000);
