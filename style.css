@@ -105,8 +105,10 @@ button:hover {
   margin-bottom: 20px;
 }
 
-.card {
+.card{
+  min-width: 300px;
   width: 300px;
+  flex-shrink: 0;
   background:  #181818;
   border-radius: 15px;
   overflow: hidden;
@@ -376,6 +378,7 @@ nav a:hover::after {
     opacity:1;
     transform:translateY(0);
   }
+}
 
 .section-title{
   font-size: 32px;
