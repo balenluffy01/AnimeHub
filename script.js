@@ -36,7 +36,6 @@ const hero = document.querySelector(".hero");
 const images = [
   "images/IMG_0186.jpeg",
   "images/IMG_0187.jpeg",
-  "images/IMG_0188.jpeg",
   "images/IMG_0196.jpeg",
   "images/IMG_0221.webp"
 ];
