@@ -424,3 +424,12 @@ nav a:hover::after {
     min-width: 250px;
     flex-shrink: 0;
 }
+.card{
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.08);
+    box-shadow: 0 10px 25px rgba(229, 9, 20, 0.7);
+}
