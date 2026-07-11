@@ -84,12 +84,21 @@ button:hover {
   background: #ff2d37;
 }
 
-.anime-list {
-  padding: 40px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  justify-items: center;
+.anime-list{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 40px;
+    scroll-behavior: smooth;
+}
+
+.anime-list::-webkit-scrollbar{
+    display: none;
+}
+
+.card{
+    min-width: 250px;
+    flex-shrink: 0;
 }
 
 .anime-list h2 {
