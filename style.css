@@ -375,3 +375,24 @@ nav a:hover::after {
   padding-left: 15px;
   color: white;
 }
+.categories{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+  margin:40px 20px;
+}
+
+.category{
+  background:#181818;
+  padding:15px 25px;
+  border-radius:10px;
+  cursor:pointer;
+  transition:0.3s;
+  font-weight:bold;
+}
+
+.category:hover{
+  background:#e50914;
+  transform:translateY(-5px);
+}
