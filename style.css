@@ -352,3 +352,19 @@ nav a:hover::after {
   background:#e50914;
   border-radius:10px;
 }
+.hero h2,
+.hero p,
+.btn{
+  animation: fadeUp 1.2s ease;
+}
+
+@keyframes fadeUp{
+  from{
+    opacity:0;
+    transform:translateY(40px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
