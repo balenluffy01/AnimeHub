@@ -408,43 +408,7 @@ nav a:hover::after {
   background:#e50914;
   transform:translateY(-5px);
 }
-.anime-list{
-    display: flex;
-    gap: 20px;
-    overflow-x: auto;
-    padding: 20px;
-    scroll-behavior: smooth;
-}
 
-.anime-list::-webkit-scrollbar{
-    display: none;
-}
-
-.card{
-    min-width: 250px;
-    flex-shrink: 0;
-}
-.card{
-    transition: 0.3s ease;
-    cursor: pointer;
-}
-
-.card:hover{
-    transform: scale(1.08);
-    box-shadow: 0 10px 25px rgba(229, 9, 20, 0.7);
-}
-.section-title{
-    font-size: 2rem;
-    margin: 30px 40px;
-    color: #fff;
-}
-footer{
-    background:#111;
-    text-align:center;
-    padding:30px;
-    margin-top:50px;
-    border-top:1px solid #333;
-}
 
 .footer-links{
     margin-top:10px;
