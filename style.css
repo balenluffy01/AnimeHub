@@ -433,3 +433,8 @@ nav a:hover::after {
     transform: scale(1.08);
     box-shadow: 0 10px 25px rgba(229, 9, 20, 0.7);
 }
+.section-title{
+    font-size: 2rem;
+    margin: 30px 40px;
+    color: #fff;
+}
