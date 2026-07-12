@@ -428,3 +428,9 @@ img{
     max-width: 100%;
     height: auto;
 }
+.anime-image{
+    width: 380px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
