@@ -424,13 +424,22 @@ nav a:hover::after {
     color:#e50914;
 }
 img{
-    width: 380px;
     max-width: 100%;
     height: auto;
 }
+
 .anime-image{
     width: 380px;
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+/* Manga Pages */
+.manga-page img{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
 }
